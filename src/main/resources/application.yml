@@ -1,0 +1,71 @@
+application:
+  title: "springboot-demo"
+  formatted-version: "1.0"
+server:
+  address: 0.0.0.0
+  port: 8081
+  servlet:
+    #uri公共前缀
+    contextPath: "/api"
+    session:
+      timeout: 10
+
+spring:
+  #日志记录模式
+  profiles:
+    active: dev
+  banner:
+    charset: "UTF-8"
+    location: classpath:/banner.txt
+  datasource:
+    url: jdbc:mysql://192.168.205.36:3306/cloudasc
+    username: root
+    password: hss
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: guest
+    password: guest
+  redis:
+    #url: redis://user:password@example.com:6379
+    #redis机器ip
+    host: 127.0.0.1
+    #redis端口
+    port: 6379
+    #redis密码
+    password:
+    #redis超时时间（毫秒），如果不设置，取默认值2000
+    timeout: 10000
+    jedis:
+      pool:
+        #最大空闲数
+        maxIdle: 300
+        #连接池的最大数据库连接数。设为0表示无限制,如果是jedis 2.4以后用redis.maxTotal
+        maxActive: 600
+        #控制一个pool可分配多少个jedis实例,用来替换上面的redis.maxActive,如果是jedis 2.4以后用该属性
+        #maxTotal: 1000
+        #最大建立连接等待时间。如果超过此时间将接到异常。设为-1表示无限制。
+        maxWait: 1000
+        #连接的最小空闲时间 默认1800000毫秒(30分钟)
+        #minEvictableIdleTimeMillis: 300000
+        #每次释放连接的最大数目,默认3
+        #numTestsPerEvictionRun: 1024
+        #逐出扫描的时间间隔(毫秒) 如果为负数,则不运行逐出线程, 默认-1
+        timeBetweenEvictionRuns: 30000
+        #是否在从池中取出连接前进行检验,如果检验失败,则从池中去除连接并尝试取出另一个
+        #testOnBorrow: true
+        #在空闲时检查有效性, 默认false
+        #testWhileIdle: true
+
+mybatis:
+  configuration:
+    cache-enabled: false
+    map-underscore-to-camel-case: true
+    use-generated-keys: true
+    default-executor-type: reuse
+    default-statement-timeout: 600
+
+# Logging settings.
+logging:
+  config: classpath:logback-spring.xml
