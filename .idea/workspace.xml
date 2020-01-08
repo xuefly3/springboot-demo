@@ -2,8 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa48566-a67b-44d5-8399-b19520d780df" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_32.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/annotation/OperateLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/OperateLogBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/util/I18nProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/msg_en_US.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/msg_zh_CN.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +39,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
@@ -63,25 +76,26 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="ignore.virus.scanning.warn.message" value="true" />
-    <property name="last_opened_file_path" value="E:/Program Files/shellcheck/shellcheck-stable.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15234375" />
     <property name="project.structure.side.proportion" value="0.27173913" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xuefly\project\springboot-demo\src\main\resources\static" />
-      <recent name="C:\xuefly\project\springboot-demo\src\main\resources" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.example.demo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xuefly\project\springboot-demo\src\main\resources" />
       <recent name="C:\xuefly\project\springboot-demo\src\main\java\com\example\demo" />
+      <recent name="C:\xuefly\project\springboot-demo\src\main\resources\static" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xuefly\project\springboot-demo\src\main\resources\static" />
       <recent name="C:\xuefly\project\springboot-demo\src\main\resources" />
     </key>
@@ -199,7 +213,9 @@
       <workItem from="1577928349748" duration="16321000" />
       <workItem from="1578275957187" duration="1368000" />
       <workItem from="1578280741503" duration="1817000" />
-      <workItem from="1578282774106" duration="16335000" />
+      <workItem from="1578282774106" duration="19007000" />
+      <workItem from="1578361265116" duration="6535000" />
+      <workItem from="1578447661734" duration="5989000" />
     </task>
     <task id="LOCAL-00001" summary="pom.xml">
       <created>1578302149748</created>
@@ -208,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578302149748</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="readme">
+      <created>1578303235470</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1578303235470</updated>
+    </task>
+    <task id="LOCAL-00003" summary="readme">
+      <created>1578303345459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1578303345459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +246,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="pom.xml" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="108" key="#Deployment" timestamp="1577324686196">
@@ -247,10 +278,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="108" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.900@0.0.1600.900" timestamp="1577946896692" />
-    <state x="400" y="41" key="CommitChangelistDialog2" timestamp="1578303233765">
+    <state x="400" y="41" key="CommitChangelistDialog2" timestamp="1578303344508">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="400" y="41" key="CommitChangelistDialog2/0.0.1600.900@0.0.1600.900" timestamp="1578303233765" />
+    <state x="400" y="41" key="CommitChangelistDialog2/0.0.1600.900@0.0.1600.900" timestamp="1578303344508" />
     <state x="152" y="71" key="DiffContextDialog" timestamp="1578303224713">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -259,46 +290,54 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="580" y="204" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1577066551609" />
-    <state width="1557" height="281" key="GridCell.Tab.0.bottom" timestamp="1578302171471">
+    <state width="1557" height="292" key="GridCell.Tab.0.bottom" timestamp="1578469361099">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="281" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1578302171471" />
-    <state width="1557" height="281" key="GridCell.Tab.0.center" timestamp="1578302171471">
+    <state width="1557" height="292" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1578469361099" />
+    <state width="1557" height="292" key="GridCell.Tab.0.center" timestamp="1578469361099">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="281" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1578302171471" />
-    <state width="1557" height="281" key="GridCell.Tab.0.left" timestamp="1578302171471">
+    <state width="1557" height="292" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1578469361099" />
+    <state width="1557" height="292" key="GridCell.Tab.0.left" timestamp="1578469361098">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="281" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1578302171471" />
-    <state width="1557" height="281" key="GridCell.Tab.0.right" timestamp="1578302171471">
+    <state width="1557" height="292" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1578469361098" />
+    <state width="1557" height="292" key="GridCell.Tab.0.right" timestamp="1578469361099">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="281" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1578302171471" />
-    <state width="1557" height="427" key="GridCell.Tab.1.bottom" timestamp="1577084407662">
+    <state width="1557" height="292" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1578469361099" />
+    <state width="1557" height="292" key="GridCell.Tab.1.bottom" timestamp="1578469359771">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="427" key="GridCell.Tab.1.bottom/0.0.1600.900@0.0.1600.900" timestamp="1577084407662" />
-    <state width="1557" height="427" key="GridCell.Tab.1.center" timestamp="1577084407662">
+    <state width="1557" height="292" key="GridCell.Tab.1.bottom/0.0.1600.900@0.0.1600.900" timestamp="1578469359771" />
+    <state width="1557" height="292" key="GridCell.Tab.1.center" timestamp="1578469359771">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="427" key="GridCell.Tab.1.center/0.0.1600.900@0.0.1600.900" timestamp="1577084407662" />
-    <state width="1557" height="427" key="GridCell.Tab.1.left" timestamp="1577084407662">
+    <state width="1557" height="292" key="GridCell.Tab.1.center/0.0.1600.900@0.0.1600.900" timestamp="1578469359771" />
+    <state width="1557" height="292" key="GridCell.Tab.1.left" timestamp="1578469359771">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="427" key="GridCell.Tab.1.left/0.0.1600.900@0.0.1600.900" timestamp="1577084407662" />
-    <state width="1557" height="427" key="GridCell.Tab.1.right" timestamp="1577084407662">
+    <state width="1557" height="292" key="GridCell.Tab.1.left/0.0.1600.900@0.0.1600.900" timestamp="1578469359771" />
+    <state width="1557" height="292" key="GridCell.Tab.1.right" timestamp="1578469359771">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="1557" height="427" key="GridCell.Tab.1.right/0.0.1600.900@0.0.1600.900" timestamp="1577084407662" />
+    <state width="1557" height="292" key="GridCell.Tab.1.right/0.0.1600.900@0.0.1600.900" timestamp="1578469359771" />
     <state x="330" y="104" key="Maven.ArtifactSearchDialog" timestamp="1577952907861">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="330" y="104" key="Maven.ArtifactSearchDialog/0.0.1600.900@0.0.1600.900" timestamp="1577952907861" />
-    <state x="370" y="48" key="SettingsEditor" timestamp="1577070421271">
+    <state x="370" y="48" key="SettingsEditor" timestamp="1578468533819">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="370" y="48" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1577070421271" />
+    <state x="370" y="48" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1578468533819" />
+    <state x="392" y="182" key="Vcs.Push.Dialog.v2" timestamp="1578303352014">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="392" y="182" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1578303352014" />
+    <state x="592" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578470152619">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="592" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1600.900@0.0.1600.900" timestamp="1578470152619" />
     <state x="476" y="188" width="647" height="524" key="find.popup" timestamp="1577960154732">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -311,13 +350,24 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="456" y="205" width="672" height="677" key="run.anything.popup/0.0.1600.900@0.0.1600.900" timestamp="1576807458922" />
-    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1577953653857">
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup" timestamp="1578469705838">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1577953653857" />
+    <state x="463" y="190" width="672" height="678" key="search.everywhere.popup/0.0.1600.900@0.0.1600.900" timestamp="1578469705838" />
     <state x="487" y="156" key="spring file set editor" timestamp="1576719785698">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="487" y="156" key="spring file set editor/0.0.1600.900@0.0.1600.900" timestamp="1576719785698" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/aspect/LogAspect.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

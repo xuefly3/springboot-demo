@@ -1,4 +1,5 @@
 package com.example.demo.controller;
+import com.example.demo.annotation.OperateLog;
 import com.example.demo.entity.User;
 import com.example.demo.service.UserService;
 import io.swagger.annotations.Api;
@@ -39,6 +40,7 @@ public class UserController {
      */
     @RequestMapping(value = "/users", method = RequestMethod.GET)
     @ApiOperation(value="users",httpMethod = "GET",notes="users",produces = MediaType.APPLICATION_JSON_VALUE)
+    @OperateLog(type = "select", operateObj = "user_list")
     public List<User> selectAll() {
         return userService.selectAll();
     }
@@ -51,6 +53,7 @@ public class UserController {
      */
     @RequestMapping(value = "/users/{id}", method = RequestMethod.GET)
     @ApiOperation(value="user",httpMethod = "GET",notes="user",produces = MediaType.APPLICATION_JSON_VALUE)
+    @OperateLog(type = "select", operateObj = "user")
     public User getOne(@PathVariable("id") String id) {
         return userService.getOne(id);
     }
@@ -62,7 +65,8 @@ public class UserController {
      */
     @RequestMapping(value = "/users/{id}", method = RequestMethod.DELETE)
     @ApiOperation(value="delete user",httpMethod = "DELETE",notes="delete user",produces = MediaType.APPLICATION_JSON_VALUE)
-    public void deleteCourse(@ApiParam(name="id",value="id",required=true) @PathVariable("id") String id) {
+    @OperateLog(type = "delete", operateObj = "user")
+    public void deleteUser(@ApiParam(name="id",value="id",required=true) @PathVariable("id") String id) {
         userService.delete(id);
     }
 
@@ -73,6 +77,7 @@ public class UserController {
      */
     @RequestMapping(value = "/user", method = RequestMethod.POST)
     @ApiOperation(value="insert user",httpMethod = "POST",notes="insert user",produces = MediaType.APPLICATION_JSON_VALUE)
+    @OperateLog(type = "add", operateObj = "user")
     public void addUser(@ApiParam(name="user",value="user",required=true) @RequestBody User user) {
         userService.insert(user);
     }
@@ -84,6 +89,7 @@ public class UserController {
      */
     @RequestMapping(value = "/user", method = RequestMethod.PUT)
     @ApiOperation(value="update user",httpMethod = "PUT",notes="update user",produces = MediaType.APPLICATION_JSON_VALUE)
+    @OperateLog(type = "update", operateObj = "user")
     public void updateUser(@ApiParam(name="user",value="user",required=true) @RequestBody User user) {
         userService.update(user);
     }
