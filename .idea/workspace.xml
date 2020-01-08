@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aa48566-a67b-44d5-8399-b19520d780df" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_32.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/annotation/OperateLog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/aspect/LogAspect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/OperateLogBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/util/I18nProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/msg_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/properties/msg_zh_CN.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-demo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-demo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +202,7 @@
       <workItem from="1578280741503" duration="1817000" />
       <workItem from="1578282774106" duration="19007000" />
       <workItem from="1578361265116" duration="6535000" />
-      <workItem from="1578447661734" duration="5989000" />
+      <workItem from="1578447661734" duration="6204000" />
     </task>
     <task id="LOCAL-00001" summary="pom.xml">
       <created>1578302149748</created>
@@ -238,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1578303345459</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="aop">
+      <created>1578470203566</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1578470203566</updated>
+    </task>
+    <task id="LOCAL-00005" summary="aop">
+      <created>1578470318087</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1578470318087</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +248,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="pom.xml" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="aop" />
+    <option name="LAST_COMMIT_MESSAGE" value="aop" />
   </component>
   <component name="WindowStateProjectService">
     <state x="392" y="108" key="#Deployment" timestamp="1577324686196">
@@ -282,10 +284,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="108" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.900@0.0.1600.900" timestamp="1577946896692" />
-    <state x="400" y="41" key="CommitChangelistDialog2" timestamp="1578470261569">
+    <state x="400" y="41" key="CommitChangelistDialog2" timestamp="1578470316285">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="400" y="41" key="CommitChangelistDialog2/0.0.1600.900@0.0.1600.900" timestamp="1578470261569" />
+    <state x="400" y="41" key="CommitChangelistDialog2/0.0.1600.900@0.0.1600.900" timestamp="1578470316285" />
     <state x="152" y="71" key="DiffContextDialog" timestamp="1578470183191">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -334,10 +336,10 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="370" y="48" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1578468533819" />
-    <state x="392" y="182" key="Vcs.Push.Dialog.v2" timestamp="1578470210420">
+    <state x="392" y="182" key="Vcs.Push.Dialog.v2" timestamp="1578470323892">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="392" y="182" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1578470210420" />
+    <state x="392" y="182" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1578470323892" />
     <state x="592" y="366" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1578470254491">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
@@ -368,7 +370,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/example/demo/aspect/LogAspect.java</url>
-          <line>72</line>
+          <line>70</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
