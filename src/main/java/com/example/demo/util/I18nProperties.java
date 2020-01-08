@@ -1,4 +1,7 @@
 package com.example.demo.util;
+
+import org.springframework.util.StringUtils;
+
 import java.util.Locale;
 import java.util.ResourceBundle;
 
@@ -36,7 +39,7 @@ public class I18nProperties {
         String lang = "cn";
         try {
             ResourceBundle strI18n = ResourceBundle.getBundle(strPro, cn);
-            if (lang != null && !"".equals(lang) && "English(en-US)".contains(lang)) {
+            if (!StringUtils.isEmpty(lang) && "English(en-US)".contains(lang)) {
                 strI18n = ResourceBundle.getBundle(strPro, us);
             }
             return strI18n.getString(strKey);
