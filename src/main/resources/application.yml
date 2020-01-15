@@ -18,7 +18,7 @@ spring:
     charset: "UTF-8"
     location: classpath:/banner.txt
   datasource:
-    url: jdbc:mysql://192.168.205.36:3306/cloudasc
+    url: jdbc:mysql://192.168.205.160:3306/cloudasc
     username: root
     password: hss
     driver-class-name: com.mysql.cj.jdbc.Driver
@@ -58,7 +58,6 @@ spring:
       #listner负责ack，每调用一次，就立即commit
       ack-mode: manual_immediate
       missing-topics-fatal: false
-
   rabbitmq:
     host: 172.101.203.33
     port: 5672
@@ -94,6 +93,16 @@ spring:
         #testOnBorrow: true
         #在空闲时检查有效性, 默认false
         #testWhileIdle: true
+
+  application:
+    name: provider
+
+eureka:
+  instance:
+    prefer-ip-address: true
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
 
 mybatis:
   configuration:
