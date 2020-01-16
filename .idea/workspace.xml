@@ -2,193 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6662a8c-0691-4485-94f4-34a4e802ed9f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/demo_0_0_1_SNAPSHOT.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/static.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/static1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/springboot-demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/demo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/banner.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/DemoApplication.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/annotation/OperateLog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/aspect/LogAspect.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/config/RabbitConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/config/RedisConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/config/SchedulerAutoConfiguration.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/config/SwaggerConfig.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/ConsumerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/KafkaController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/ProducerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/RabbitMQController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/RedisController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/SimpleController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/SwaggerController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/controller/UserController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/entity/OperateLogBean.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/entity/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/kafka/KafkaConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/kafka/KafkaProducer$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/kafka/KafkaProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/mapper/UserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/rabbitmq/MsgConsumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/rabbitmq/MsgProducer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/schedule/TestSchedule.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/schedule/job/SimpleJob.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/service/JobScheduleService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/service/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/service/impl/JobScheduleServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/util/I18nProperties.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/util/RandomUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/com/example/demo/util/RedisUtil.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/logback-spring.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/properties/msg_en_US.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/properties/msg_zh_CN.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static.zip" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/css/reset.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/css/screen.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/css/typography.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-700.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-700.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-700.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-700.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-700.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/fonts/droid-sans-v6-latin-regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/images/explorer_icons.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/images/logo_small.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/images/pet_store_api.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/images/throbber.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/images/wordnik_api.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/backbone-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/handlebars-2.0.0.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/highlight.7.3.pack.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/jquery-1.8.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/jquery.ba-bbq.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/jquery.slideto.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/jquery.wiggle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/marked.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/shred.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/shred/content.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/swagger-client.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/swagger-oauth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/lib/underscore-min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/o2c.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/swagger-ui.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/classes/static/swagger-ui.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/demo-0.0.1-SNAPSHOT.jar.original" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/TEST-com.example.demo.DemoApplicationTests.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/surefire-reports/com.example.demo.DemoApplicationTests.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/target/test-classes/com/example/demo/DemoApplicationTests.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eureka/cloud.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/demo/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shellcheckPlugin.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/demo_0_0_1_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/maven_wrapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/static.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/static1.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" afterPath="$PROJECT_DIR$/demo/HELP.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka/eureka.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/main/java/com/example/cloud/CloudApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/java/com/example/cloud/EurekaApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/demo/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/demo/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot-demo.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/DemoApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/annotation/OperateLog.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/annotation/OperateLog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/aspect/LogAspect.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/aspect/LogAspect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/config/RabbitConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/config/RabbitConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/config/RedisConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/config/RedisConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/config/SchedulerAutoConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/config/SchedulerAutoConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/config/SwaggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/ConsumerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/ConsumerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/KafkaController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/KafkaController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/ProducerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/ProducerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/RabbitMQController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/RabbitMQController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/RedisController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/RedisController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/SimpleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/SimpleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/SwaggerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/SwaggerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/OperateLogBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/entity/OperateLogBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/kafka/KafkaConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/kafka/KafkaConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/kafka/KafkaProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/kafka/KafkaProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/rabbitmq/MsgConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/rabbitmq/MsgConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/rabbitmq/MsgProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/rabbitmq/MsgProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/schedule/TestSchedule.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/schedule/TestSchedule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/schedule/job/SimpleJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/schedule/job/SimpleJob.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/JobScheduleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/JobScheduleService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/impl/JobScheduleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/impl/JobScheduleServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/util/I18nProperties.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/util/I18nProperties.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/util/RandomUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/util/RandomUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/demo/util/RedisUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/example/demo/util/RedisUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/banner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/banner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/logback-spring.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/logback-spring.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/msg_en_US.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/properties/msg_en_US.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/properties/msg_zh_CN.properties" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/properties/msg_zh_CN.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static.zip" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/reset.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/screen.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/screen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/typography.css" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/css/typography.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.eot" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-700.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.svg" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-700.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-700.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.woff" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-700.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-700.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-700.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.eot" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-regular.eot" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.svg" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-regular.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.woff" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/fonts/droid-sans-v6-latin-regular.woff2" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/fonts/droid-sans-v6-latin-regular.woff2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/explorer_icons.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/images/explorer_icons.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/logo_small.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/images/logo_small.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/pet_store_api.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/images/pet_store_api.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/throbber.gif" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/images/throbber.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/images/wordnik_api.png" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/images/wordnik_api.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/backbone-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/backbone-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/handlebars-2.0.0.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/handlebars-2.0.0.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/highlight.7.3.pack.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/highlight.7.3.pack.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/jquery-1.8.0.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/jquery-1.8.0.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/jquery.ba-bbq.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/jquery.ba-bbq.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/jquery.slideto.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/jquery.slideto.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/jquery.wiggle.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/jquery.wiggle.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/marked.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/marked.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/shred.bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/shred.bundle.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/shred/content.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/shred/content.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/swagger-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/swagger-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/swagger-oauth.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/swagger-oauth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/lib/underscore-min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/lib/underscore-min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/o2c.html" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/o2c.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/swagger-ui.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/swagger-ui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/static/swagger-ui.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/static/swagger-ui.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/demo/DemoApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/test/java/com/example/demo/DemoApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka/src/test/java/com/example/cloud/CloudApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/eureka/src/test/java/com/example/cloud/EurekaApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -227,7 +51,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/eureka" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/demo" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -246,13 +70,13 @@
       </set>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CloudApplication">
-    <configuration name="CloudApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.cloud.CloudApplication" />
+  <component name="RunManager" selected="Application.EurekaApplication">
+    <configuration name="EurekaApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.eureka.EurekaApplication" />
       <module name="eureka" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.cloud.*" />
+          <option name="PATTERN" value="com.example.eureka.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -260,137 +84,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="DjangoTestsConfigurationType">
-      <module name="eureka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="eureka" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="eureka" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="eureka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <module name="eureka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="eureka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="eureka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration name="CloudApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eureka" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.cloud.CloudApplication" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.eureka.EurekaApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -402,55 +98,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="eureka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <module name="eureka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <module name="eureka" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
-      <method v="2" />
+    <configuration name="TestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="test" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.test.TestApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CloudApplication" />
+        <item itemvalue="Application.EurekaApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -488,8 +145,24 @@
       <option name="presentableId" value="Default" />
       <updated>1579077917381</updated>
       <workItem from="1579077919748" duration="2099000" />
-      <workItem from="1579080167448" duration="2328000" />
+      <workItem from="1579080167448" duration="3172000" />
+      <workItem from="1579138499948" duration="3483000" />
     </task>
+    <task id="LOCAL-00001" summary="目录整改">
+      <created>1579082553493</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579082553493</updated>
+    </task>
+    <task id="LOCAL-00002" summary="目录整改">
+      <created>1579082781735</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1579082781735</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -504,58 +177,66 @@
       <screen x="0" y="0" width="1600" height="900" />
     </state>
     <state x="254" y="104" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.900@0.0.1600.900" timestamp="1579080511393" />
-    <state x="206" y="41" key="CommitChangelistDialog2" timestamp="1579082540420">
+    <state x="428" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1579142456010">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="206" y="41" key="CommitChangelistDialog2/0.0.1600.900@0.0.1600.900" timestamp="1579082540420" />
-    <state x="601" y="172" key="FileChooserDialogImpl" timestamp="1579079947542">
+    <state x="428" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1600.900@0.0.1600.900" timestamp="1579142456010" />
+    <state x="206" y="41" key="CommitChangelistDialog2" timestamp="1579082777967">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="601" y="172" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1579079947542" />
-    <state width="657" height="272" key="GridCell.Tab.0.bottom" timestamp="1579082625928">
+    <state x="206" y="41" key="CommitChangelistDialog2/0.0.1600.900@0.0.1600.900" timestamp="1579082777967" />
+    <state x="601" y="172" key="FileChooserDialogImpl" timestamp="1579140504375">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="657" height="272" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1579082625928" />
-    <state width="657" height="272" key="GridCell.Tab.0.center" timestamp="1579082625928">
+    <state x="601" y="172" key="FileChooserDialogImpl/0.0.1600.900@0.0.1600.900" timestamp="1579140504375" />
+    <state width="1341" height="308" key="GridCell.Tab.0.bottom" timestamp="1579142410935">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="657" height="272" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1579082625928" />
-    <state width="657" height="272" key="GridCell.Tab.0.left" timestamp="1579082625928">
+    <state width="1341" height="308" key="GridCell.Tab.0.bottom/0.0.1600.900@0.0.1600.900" timestamp="1579142410935" />
+    <state width="1341" height="308" key="GridCell.Tab.0.center" timestamp="1579142410935">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="657" height="272" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1579082625928" />
-    <state width="657" height="272" key="GridCell.Tab.0.right" timestamp="1579082625928">
+    <state width="1341" height="308" key="GridCell.Tab.0.center/0.0.1600.900@0.0.1600.900" timestamp="1579142410935" />
+    <state width="1341" height="308" key="GridCell.Tab.0.left" timestamp="1579142410935">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="657" height="272" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1579082625928" />
-    <state width="657" height="272" key="GridCell.Tab.1.bottom" timestamp="1579082625928">
+    <state width="1341" height="308" key="GridCell.Tab.0.left/0.0.1600.900@0.0.1600.900" timestamp="1579142410935" />
+    <state width="1341" height="308" key="GridCell.Tab.0.right" timestamp="1579142410935">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="657" height="272" key="GridCell.Tab.1.bottom/0.0.1600.900@0.0.1600.900" timestamp="1579082625928" />
-    <state width="657" height="272" key="GridCell.Tab.1.center" timestamp="1579082625928">
+    <state width="1341" height="308" key="GridCell.Tab.0.right/0.0.1600.900@0.0.1600.900" timestamp="1579142410935" />
+    <state width="1341" height="308" key="GridCell.Tab.1.bottom" timestamp="1579142410935">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="657" height="272" key="GridCell.Tab.1.center/0.0.1600.900@0.0.1600.900" timestamp="1579082625928" />
-    <state width="657" height="272" key="GridCell.Tab.1.left" timestamp="1579082625928">
+    <state width="1341" height="308" key="GridCell.Tab.1.bottom/0.0.1600.900@0.0.1600.900" timestamp="1579142410935" />
+    <state width="1341" height="308" key="GridCell.Tab.1.center" timestamp="1579142410935">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="657" height="272" key="GridCell.Tab.1.left/0.0.1600.900@0.0.1600.900" timestamp="1579082625928" />
-    <state width="657" height="272" key="GridCell.Tab.1.right" timestamp="1579082625928">
+    <state width="1341" height="308" key="GridCell.Tab.1.center/0.0.1600.900@0.0.1600.900" timestamp="1579142410935" />
+    <state width="1341" height="308" key="GridCell.Tab.1.left" timestamp="1579142410935">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state width="657" height="272" key="GridCell.Tab.1.right/0.0.1600.900@0.0.1600.900" timestamp="1579082625928" />
-    <state x="461" y="171" key="NewModule_or_Project.wizard" timestamp="1579078111058">
+    <state width="1341" height="308" key="GridCell.Tab.1.left/0.0.1600.900@0.0.1600.900" timestamp="1579142410935" />
+    <state width="1341" height="308" key="GridCell.Tab.1.right" timestamp="1579142410935">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="461" y="171" key="NewModule_or_Project.wizard/0.0.1600.900@0.0.1600.900" timestamp="1579078111058" />
-    <state x="301" y="48" key="SettingsEditor" timestamp="1579082085769">
+    <state width="1341" height="308" key="GridCell.Tab.1.right/0.0.1600.900@0.0.1600.900" timestamp="1579142410935" />
+    <state x="461" y="171" key="NewModule_or_Project.wizard" timestamp="1579140558496">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="301" y="48" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1579082085769" />
-    <state x="392" y="182" key="Vcs.Push.Dialog.v2" timestamp="1579082599588">
+    <state x="461" y="171" key="NewModule_or_Project.wizard/0.0.1600.900@0.0.1600.900" timestamp="1579140558496" />
+    <state x="301" y="48" key="SettingsEditor" timestamp="1579140773966">
       <screen x="0" y="0" width="1600" height="900" />
     </state>
-    <state x="392" y="182" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1579082599588" />
+    <state x="301" y="48" key="SettingsEditor/0.0.1600.900@0.0.1600.900" timestamp="1579140773966" />
+    <state x="392" y="182" key="Vcs.Push.Dialog.v2" timestamp="1579082784196">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="392" y="182" key="Vcs.Push.Dialog.v2/0.0.1600.900@0.0.1600.900" timestamp="1579082784196" />
+    <state x="393" y="150" width="874" height="599" key="new project wizard" timestamp="1579142235735">
+      <screen x="0" y="0" width="1600" height="900" />
+    </state>
+    <state x="393" y="150" width="874" height="599" key="new project wizard/0.0.1600.900@0.0.1600.900" timestamp="1579142235735" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
